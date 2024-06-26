@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
-    <title>Lovus - Wedding Website Template</title>
+    <title>40th Anniversary Website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Lovus is responsive wedding html website template">
     <meta name="keywords" content="wedding,couple,ceremony,reception,rsvp,gallery,event,countdown">
@@ -14,6 +15,8 @@
 	<![endif]-->
 
 
+    <!-- CSS Files
+    ================================================== -->
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="css/animate.css" type="text/css">
     <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
@@ -21,6 +24,7 @@
     <link rel="stylesheet" href="css/jquery.countdown.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/animsition.min.css" type="text/css">
+    <link rel="stylesheet" href="rsvp/form.css">
 
     <!-- custom background -->
     <link rel="stylesheet" href="css/bg.css" type="text/css">
@@ -29,7 +33,7 @@
     <link rel="stylesheet" href="css/color.css" type="text/css" id="colors">
 </head>
 
-<body>
+<body class="page-journal">
 
     <div id="wrapper">
         <!-- header begin -->
@@ -42,8 +46,7 @@
                         <!-- logo begin -->
                         <div id="logo">
                             <a href="index.html">
-                                <img class="logo" src="images_02/logo-2.png" alt="">
-								<img class="logo-2" src="images_02/logo.png" alt="">
+                                <h2>Dorcas<span>&amp;</span>Moses</h2>
                             </a>
                         </div>
                         <!-- logo close -->
@@ -51,31 +54,38 @@
                         <!-- small button begin -->
                         <span id="menu-btn"></span>
                         <!-- small button close -->
-						
-						<a href="02_contact.html" class="btn-rsvp">Contact</a>
+
+                        <span class="btn-rsvp">RSVP</span>
 
                         <!-- mainmenu begin -->
                         <nav>
                             <ul id="mainmenu">
-                                <li><a href="02_index.html">Home</a>
-									<ul>
+                                <li><a href="index.html">Home</a>
+                                    <!-- <ul>
+                                        <li><a href="index.html">Wedding 1</a></li>
+                                        <li><a href="01_index_2.html">Wedding 2</a></li>
+                                        <li><a href="01_index_3.html">Wedding 3</a></li>
                                         <li><a href="02_index.html">Wedding Planner 1</a></li>
                                         <li><a href="02_index_2.html">Wedding Planner 2</a></li>
                                         <li><a href="02_index_3.html">Wedding Planner 3</a></li>
-										<li><a href="index.html">Wedding 1</a></li>
-                                        <li><a href="01_index_2.html">Wedding 2</a></li>
-                                        <li><a href="01_index_3.html">Wedding 3</a></li>
                                     </ul>
-								</li>
-								<li><a href="02_about.html">About</a></li>
-                                <li><a href="02_services.html">Services</a></li>
-                                <li><a href="02_packages.html">Packages</a></li>
-                                <li><a href="02_blog.html">Blog</a></li>
+                                </li> -->
+                                <li><a href="#">About</a>
+                                    <ul>
+                                        <li><a href="01_about-her.html">About Her</a></li>
+                                        <li><a href="01_about-him.html">About Him</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="01_story.html">Story</a></li>
+                                <li><a href="01_events.html">Events</a></li>
+                                <li><a href="01_people.html">People</a></li>
+                                <li><a href="01_gallery.html">Gallery</a></li>
+                                <li><a href="01_journal.html">Journal</a></li>
                             </ul>
                         </nav>
-						<!-- mainmenu close -->
 
                     </div>
+                    <!-- mainmenu close -->
 
                 </div>
             </div>
@@ -83,13 +93,13 @@
         <!-- header close -->
 
         <!-- subheader -->
-        <section id="subheader" class="subheader_02 dark no-top no-bottom" data-stellar-background-ratio=".2">
+        <section id="subheader" class="dark no-top no-bottom" data-stellar-background-ratio=".2">
             <div class="wrap">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12 text-center fadeScroll relative" data-scroll-speed="2">
-                            <h2 data-scroll-speed="8">Blog</h2>
-							<div class="small-border"></div>
+                            <h2 data-scroll-speed="8">Journal</h2>
+                            <div class="wm" data-scroll-speed="3">Our</div>
                             <div class="spacer-double"></div>
                         </div>
                     </div>
@@ -100,6 +110,83 @@
 
         <!-- content begin -->
         <div id="content">
+
+            <!-- rsvp popup begin -->
+            <div id="popup-box" class="full-height">
+                <span class="btn-close">
+					<i class="icon_close"></i>
+				</span>
+
+                <div class="container center-y">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <h2 class="deco id-color"><span>We Invite You</span></h2>
+                            <h2 data-wow-delay=".2s">Sunday, 7 July 2024</h2>
+                        </div>
+
+                        <div class="spacer-double"></div>
+
+                        <div class="col-md-5 col-md-offset-1 text-right">
+                            <h3>Church Service</h3>
+                            9:00 AM(WAT)<br> The Gospel Faith Mission International (GOFAMINT)<br>
+                            6, Dairo Street, Kuje, Amuwo, Lagos.<br>
+                        </div>
+
+                        <div class="col-md-5">
+                            <h3>Reception</h3>
+                            2:00 PM(WAT) <br> Allseasons Multipurpose Hall, Diya Gate<br>Plot 4, Residential Area 4,
+                            OPIC Estate, Agbara. <br>
+                            near Old Seaside Schools.<br>
+                        </div>
+
+
+                        <div class="spacer-double"></div>
+
+                        <form name="rsvp" id='rsvp_form' class="form-underline" method="post" action="rsvp.php">
+                            <div class="col-md-3">
+                                <input type='text' name='Name' id='name' class="form-control" placeholder="Your Name" required maxlength="50">
+                            </div>
+                            <div class="col-md-3">
+                                <input type='text' name='Email' id='email' class="form-control" placeholder="Your Email" required maxlength="50">
+                            </div>
+                            <div class="col-md-3">
+                                <select id="guest" name="Guest" size="1" class="form-control">
+                                    <option value="" disabled selected>Guests</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                            <div class="col-md-3">
+                                <select id="attend" name="Attend" size="1" class="form-control">
+                                    <option value="" disabled selected>Are you attending?</option>
+                                    <option>yes</option>
+                                    <option>no</option>
+                                </select>
+                            </div>
+                            <div class="col-md-12 text-center">
+                                <div class="spacer-single"></div>
+                                <input type='submit' id='submit' value='Submit' class="btn btn-custom">
+                                <div id='mail_success' class='success'>Your message has been sent successfully.</div>
+                                <div id='mail_fail' class='error'>Sorry, error occured this time sending your message.</div>
+                            </div>
+                        </form>
+                        <div id="success_message">
+                            <h1>Thank You!</h1>
+                            <p> We will get back to you soon. </p>
+                        </div>
+                        <div id="error_message">
+                            <h1>Error</h1> Sorry there was an error sending your form.
+                        </div>
+
+                        <div class="spacer-single"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- rsvp popup close -->
+
             <div class="container">
                 <div class="row">
                     <div class="blog-list">
@@ -107,24 +194,25 @@
                             <div class="post-content">
                                 <div class="post-image">
                                     <figure class="picframe img-rounded mb20">
-													<a class="image-popup" href="images_02/news/1.jpg">
+                                        <a class="image-popup" href="images/news/1.jpg">
 														<span class="overlay-v">
 															<i></i>
 														</span>
 													</a>
-													<img src="images_02/news/1.jpg" class="img-responsive img-rounded" alt="">
-												</figure>
+                                        <img src="images/news/1.jpg" class="img-responsive img-rounded" alt="">
+                                    </figure>
                                 </div>
 
                                 <div class="post-wrapper">
                                     <div class="date-box">
-                                        <div class="day">26</div>
-                                        <div class="month">FEB</div>
+                                        <div class="day">7</div>
+                                        <div class="month">JULY</div>
                                     </div>
 
                                     <div class="post-text">
                                         <h3><a href="css/#">Best Hotel For Family</a></h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
                                     </div>
 
                                     <div class="clearfix"></div>
@@ -136,25 +224,26 @@
                             <div class="post-content">
                                 <div class="post-image">
                                     <figure class="picframe img-rounded mb20">
-													<a class="image-popup" href="images_02/news/2.jpg">
+                                        <a class="image-popup" href="images/news/2.jpg">
 														<span class="overlay-v">
 															<i></i>
 														</span>
 													</a>
-													<img src="images_02/news/2.jpg" class="img-responsive img-rounded" alt="">
-												</figure>
+                                        <img src="images/news/2.jpg" class="img-responsive img-rounded" alt="">
+                                    </figure>
                                 </div>
 
 
                                 <div class="post-wrapper">
                                     <div class="date-box">
-                                        <div class="day">26</div>
-                                        <div class="month">FEB</div>
+                                        <div class="day">7</div>
+                                        <div class="month">JULY</div>
                                     </div>
 
                                     <div class="post-text">
                                         <h3><a href="css/#">Best Hotel For Family</a></h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
                                     </div>
 
                                     <div class="clearfix"></div>
@@ -168,25 +257,26 @@
                             <div class="post-content">
                                 <div class="post-image">
                                     <figure class="picframe img-rounded mb20">
-													<a class="image-popup" href="images_02/news/3.jpg">
+                                        <a class="image-popup" href="images/news/3.jpg">
 														<span class="overlay-v">
 															<i></i>
 														</span>
 													</a>
-													<img src="images_02/news/3.jpg" class="img-responsive img-rounded" alt="">
-												</figure>
+                                        <img src="images/news/3.jpg" class="img-responsive img-rounded" alt="">
+                                    </figure>
                                 </div>
 
 
                                 <div class="post-wrapper">
                                     <div class="date-box">
-                                        <div class="day">26</div>
-                                        <div class="month">FEB</div>
+                                        <div class="day">7</div>
+                                        <div class="month">JULY</div>
                                     </div>
 
                                     <div class="post-text">
                                         <h3><a href="css/#">Best Hotel For Family</a></h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
                                     </div>
 
                                     <div class="clearfix"></div>
@@ -198,25 +288,29 @@
                             <div class="post-content">
                                 <div class="post-image">
                                     <figure class="picframe img-rounded mb20">
-													<a class="image-popup" href="images_02/news/4.jpg">
+                                        <a class="image-popup" href="images/news/4.jpg">
 														<span class="overlay-v">
 															<i></i>
 														</span>
 													</a>
-													<img src="images_02/news/4.jpg" class="img-responsive img-rounded" alt="">
-												</figure>
+                                        <img src="images/news/4.jpg" class="img-responsive img-rounded" alt="">
+                                    </figure>
                                 </div>
 
 
                                 <div class="post-wrapper">
                                     <div class="date-box">
-                                        <div class="day">26</div>
-                                        <div class="month">FEB</div>
+                                        <div class="day">7</div>
+                                        <div class="month">JULY
+
+                                    
+                                        </div>
                                     </div>
 
                                     <div class="post-text">
                                         <h3><a href="css/#">Best Hotel For Family</a></h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
                                     </div>
 
                                     <div class="clearfix"></div>
@@ -250,7 +344,7 @@
             <div class="container text-center text-light">
                 <div class="row">
                     <div class="col-md-12">
-                        <h2 class="hs1 wow fadeInUp">Laurie<span>&amp;</span>Briant</h2>
+                        <h2 class="hs1 wow fadeInUp">Dorcas<span>&amp;</span>Moses</h2>
                     </div>
                 </div>
             </div>
@@ -259,7 +353,7 @@
                 <div class="container text-center">
                     <div class="row">
                         <div class="col-md-12">
-                            &copy; Copyright 2019 - Lovus by Designesia                     
+                            &copy; Copyright 2024 - Geeks Circles Limited.
                         </div>
                     </div>
                 </div>
@@ -282,7 +376,6 @@
     <script src="js/easing.js"></script>
     <script src="js/owl.carousel.js"></script>
     <script src="js/jquery.countTo.js"></script>
-    <script src="js/validation.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/enquire.min.js"></script>
@@ -290,8 +383,10 @@
     <script src="js/jquery.plugin.js"></script>
     <script src="js/jquery.countdown.js"></script>
     <script src="js/countdown-custom.js"></script>
-	<script src="js/animsition.min.js"></script>
+    <script src="js/animsition.min.js"></script>
     <script src="js/designesia.js"></script>
+    <script src="rsvp/form.js"></script>
 
 </body>
+
 </html>
