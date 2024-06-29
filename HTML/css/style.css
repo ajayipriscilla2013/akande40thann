@@ -3804,6 +3804,8 @@ video, object {
 }
 .img-responsive {
 	display: inline-block;
+	height: max-content;
+	width: max-content;
 }
 .img-shadow {
 	-webkit-box-shadow: 8px 8px 40px 0px rgba(0, 0, 0, 0.3);
@@ -5199,6 +5201,7 @@ i.btn-action-hide {
 		transform: translateY(-15px);
 	}
 }
+
 .arrow-anim {
 	position: absolute;
 	bottom: 0;
@@ -5236,6 +5239,7 @@ a.read_more i {
 .text-black {
 	color: #222;
 }
+
 
 /* timeline */
 
