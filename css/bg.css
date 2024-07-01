@@ -19,8 +19,8 @@ background-size: 100% !important;
 
 
 /* background settings for page subheader */
-.page-about-him #subheader{background-image:url(../images/background/1.jpg);}
-.page-about-her #subheader{background-image:url(../images/background/2.jpg);}
+.page-about-him #subheader{background-image:url(../images/misc/dad2.JPG);}
+.page-about-her #subheader{background-image:url(../images/misc/nv.JPG);}
 .page-about #subheader{background-image:url(../images/background/subheader-1.jpg);}
 .page-story #subheader{background-image:url(../images/background/subheader-2.jpg);}
 .page-event #subheader{background-image:url(../images/background/subheader-3.jpg);}
